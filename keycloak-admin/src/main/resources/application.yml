@@ -1,0 +1,13 @@
+server:
+  port: 8181
+
+spring:
+  application:
+    name: keycloak-admin-users
+
+dh:
+  keycloak:
+    serverUrl: http://localhost:8080
+    realm: el-aparato-mascheroni
+    clientId: gestion-usuarios-client
+    clientSecret: w9XbKy1XjE5n7wM1CPopy2W40rBPGOL9
